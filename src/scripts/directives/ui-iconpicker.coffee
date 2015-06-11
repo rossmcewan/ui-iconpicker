@@ -60,7 +60,7 @@ umd this, (angular) ->
 				# when ng-model is found in the DOM attribute.
 				if attrs.ngModel
 					$scope.model = $scope[attrs.ngModel];
-					$scope.iconClass = $scope.model;
+					#$scope.iconClass = $scope.model;
 					$scope.$watch "iconClass", ->
 						$scope.model = $scope.iconClass;
 					$scope.$watch "model", ->
