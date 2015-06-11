@@ -8,8 +8,12 @@
     "Iconpicker",
     "AngularJS"
   ],
+  "main":[
+    "dist/scripts/ui-iconpicker.js",
+    "dist/styles/ui-iconpicker.css"
+  ],
   "license": "MIT",
-  "authers": [
+  "authors": [
     {
       "name": "Justin Lau",
       "email": "justin@tclau.com",

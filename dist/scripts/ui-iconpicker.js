@@ -190,6 +190,7 @@
             $scope.iconClass = (_ref = attrs.value) != null ? _ref : $scope.availableIconClasses[0];
             if (attrs.ngModel) {
               $scope.model = $scope[attrs.ngModel];
+              $scope.iconClass = $scope.model;
               $scope.$watch("iconClass", function() {
                 return $scope.model = $scope.iconClass;
               });
